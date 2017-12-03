@@ -87,7 +87,6 @@ public class HttpServiceApi {
     //***************************设置具体的每个url***************************
     public static String getRegisterUrl() {
         MyStringBuilder rootBuilder =getCurrentNetRoot().getApiPrefix();
-        rootBuilder.append("/user/auth/register-create");
         return rootBuilder.toString();
     }
 }
